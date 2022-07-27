@@ -1,0 +1,78 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#overlay {
+  width: 100%;
+  height: 60%;
+  background-color: rgb(85, 83, 183, 0.4);
+  position: absolute;
+  bottom: 40px;
+  left: 70%;
+  border-top-left-radius: 150px 80%;
+  border-bottom-left-radius: 25px;
+  filter: blur(1px);
+}
+
+#main--container {
+  position: relative;
+  margin-block: 3rem;
+  border: 2px solid #2dd35c;
+  width: 70%;
+  padding: 3rem 7rem;
+  border-top-right-radius: 250px 80%;
+  border-bottom-right-radius: 25px;
+}
+
+h1 {
+  font-weight: 500;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 1.3;
+  width: 25rem;
+}
+
+h1 > span {
+  font-weight: 700;
+  color: #5553b7;
+}
+
+.btn {
+  font: inherit;
+  font-weight: 500;
+  height: 36px;
+  padding: 0 1rem;
+  border-radius: 20px;
+  border: none;
+  margin: 10px 1rem;
+  margin-left: 0;
+}
+
+.try-for-free {
+  background-color: #2dd35c;
+  color: white;
+}
+
+.book-a-demo {
+  background: transparent;
+  border: 2px solid #5553b7;
+  color: #5553b7;
+}
+
+@media (max-width: 890px) {
+  #overlay {
+    height: 60%;
+  }
+  #main--container {
+    padding: 3rem 4rem;
+  }
+
+  h1 {
+    width: 15rem;
+  }
+}
